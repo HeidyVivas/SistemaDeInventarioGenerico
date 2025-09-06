@@ -1,4 +1,4 @@
-import { TipoMovimiento, ProductoGenerico } from "../types";
+import { TipoMovimiento, ProductoGenerico } from "./types/comunes";
 import { Producto } from "./Producto";
 
 export class Movimiento<T extends ProductoGenerico> {

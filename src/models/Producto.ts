@@ -1,4 +1,4 @@
-import { ProductoGenerico } from "../types";
+import { ProductoGenerico } from "./types/comunes";
 
 export class Producto<T extends ProductoGenerico> {
   constructor(public datos: T) {}
